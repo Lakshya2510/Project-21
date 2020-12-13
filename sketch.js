@@ -29,6 +29,7 @@ function draw() {
     }
     
   }
+  hasCollided();
   drawSprites();
 }
 
