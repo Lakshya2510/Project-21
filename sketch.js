@@ -9,7 +9,7 @@ function setup() {
 
   bullet = createSprite(50,200,50,50);
   bullet.velocityX = speed;
-  wall = createSprite(1200,200,thicknss,height/2);
+  wall = createSprite(1200,200,thickness,height/2);
   wall.shapeColor=color(80,80,80)
 }
 
@@ -29,7 +29,6 @@ function draw() {
     }
     
   }
-  hasCollided();
   drawSprites();
 }
 
